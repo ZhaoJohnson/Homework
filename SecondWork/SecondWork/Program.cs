@@ -32,7 +32,7 @@ namespace SecondWork
             eastSect.Fee();
 
 
-
+            eastSect.GetPropertyValue(p =>p.Resident);
 
             Console.ReadKey();
         }

@@ -46,5 +46,13 @@ namespace WorkModel
             Console.WriteLine("See U Again!");
         }
 
+        public event EventHandler Fire;
+
+        public virtual Action SetTemperature(int temperature)
+        {
+            return null;
+        }
+
+
     }
 }
