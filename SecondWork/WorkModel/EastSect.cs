@@ -26,6 +26,11 @@ namespace WorkModel
         {
         }
 
+        public override Action SetTemperature(int temperature)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Fee()
         {
         }

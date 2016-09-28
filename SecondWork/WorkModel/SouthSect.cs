@@ -18,6 +18,12 @@ namespace WorkModel
         {
             Console.WriteLine("Welcome to The SouthSect Show!");
         }
+
+        public override Action SetTemperature(int temperature)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void Bark()
         {
         }
@@ -34,9 +40,6 @@ namespace WorkModel
         {
         }
 
-        public override Action SetTemperature(int temperature)
-        {
-            return base.SetTemperature(temperature);
-        }
+        
     }
 }

@@ -21,6 +21,11 @@ namespace WorkModel
             Console.WriteLine("Thank You Watching The NorthScet Show!");
         }
 
+        public override Action SetTemperature(int temperature)
+        {
+            throw new NotImplementedException();
+        }
+
         public override void Bark()
         {
         }

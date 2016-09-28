@@ -48,15 +48,8 @@ namespace WorkModel
 
         public event Action Fire;
 
-        public virtual Action SetTemperature(int temperature)
-        {
-            if (temperature>400)
-            {
-                Fire.Invoke();
-            }
-            return null;
-        }
-       
+        public abstract Action SetTemperature(int temperature);
+
 
     }
 }
