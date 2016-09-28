@@ -22,7 +22,17 @@ namespace SecondWork
             SouthSect southSect=new SouthSect();
             WestSect westSect=new WestSect();
             
-            BasicService<EastSect>.Print();
+            BasicService.Print(eastSect);
+            eastSect.InitialShow();
+            eastSect.Prologue();
+            eastSect.Bark();
+            eastSect.HumanSound();
+            eastSect.Wind();
+            eastSect.ConcludingRemarks();
+            eastSect.Fee();
+
+
+
 
             Console.ReadKey();
         }

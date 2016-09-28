@@ -1,6 +1,6 @@
 ﻿namespace WorkModel.Interface
 {
-    interface IPay
+    public interface IPay
     {
         void Fee();
     }

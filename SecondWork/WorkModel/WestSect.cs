@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using WorkModel.Interface;
 
 namespace WorkModel
 {
-    public class WestSect : BasicShow
+    public class WestSect : BasicShow,IPay
     {
         public override string Resident { get; set; }
         public override string Table { get; set; }
@@ -24,17 +25,18 @@ namespace WorkModel
 
         public override void Bark()
         {
-            throw new NotImplementedException();
         }
 
         public override void HumanSound()
         {
-            throw new NotImplementedException();
         }
 
         public override void Wind()
         {
-            throw new NotImplementedException();
+        }
+
+        public void Fee()
+        {
         }
     }
 }

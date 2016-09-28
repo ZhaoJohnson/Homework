@@ -5,17 +5,18 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using WorkModel;
+using WorkModel.Interface;
 using WorkService.IService;
 
 namespace WorkService
 {
-    public class BasicService<TModel>:IBasicService
-        where TModel : BasicShow,new()
+    public class BasicService:IBasicService
+        
     {
-        public static void Print()
+        public static void Print<Tvalue>(Tvalue tValue)
+            where Tvalue:BasicShow,IPay
         {
-            TModel model=new TModel();
-            foreach (PropertyInfo itemInfo in model.GetType().GetProperties())
+            foreach (PropertyInfo itemInfo in tValue.GetType().GetProperties())
             {
                 Console.WriteLine(itemInfo.Name);
             }
