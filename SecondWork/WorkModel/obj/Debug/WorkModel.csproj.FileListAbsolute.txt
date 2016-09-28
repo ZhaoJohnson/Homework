@@ -1,0 +1,5 @@
+D:\test\HomeWork\SecondWork\WorkModel\bin\Debug\WorkModel.dll
+D:\test\HomeWork\SecondWork\WorkModel\bin\Debug\WorkModel.pdb
+D:\test\HomeWork\SecondWork\WorkModel\obj\Debug\WorkModel.csprojResolveAssemblyReference.cache
+D:\test\HomeWork\SecondWork\WorkModel\obj\Debug\WorkModel.dll
+D:\test\HomeWork\SecondWork\WorkModel\obj\Debug\WorkModel.pdb

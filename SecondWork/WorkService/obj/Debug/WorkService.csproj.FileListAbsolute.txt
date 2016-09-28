@@ -1,0 +1,6 @@
+D:\test\HomeWork\SecondWork\WorkService\bin\Debug\WorkService.dll
+D:\test\HomeWork\SecondWork\WorkService\bin\Debug\WorkService.pdb
+D:\test\HomeWork\SecondWork\WorkService\bin\Debug\WorkModel.dll
+D:\test\HomeWork\SecondWork\WorkService\bin\Debug\WorkModel.pdb
+D:\test\HomeWork\SecondWork\WorkService\obj\Debug\WorkService.dll
+D:\test\HomeWork\SecondWork\WorkService\obj\Debug\WorkService.pdb
