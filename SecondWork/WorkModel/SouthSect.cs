@@ -33,5 +33,10 @@ namespace WorkModel
         public void Fee()
         {
         }
+
+        public override Action SetTemperature(int temperature)
+        {
+            return base.SetTemperature(temperature);
+        }
     }
 }

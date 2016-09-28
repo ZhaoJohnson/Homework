@@ -50,9 +50,13 @@ namespace WorkModel
 
         public virtual Action SetTemperature(int temperature)
         {
+            if (temperature>400)
+            {
+                Fire.Invoke();
+            }
             return null;
         }
-
+       
 
     }
 }
